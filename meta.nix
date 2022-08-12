@@ -3,8 +3,8 @@
   name = "Agency";
   id = "agency";
   license = lib.licenses.asl20;
-  demoPage = https://styx-static.github.io/styx-theme-agency;
-  homepage = https://github.com/styx-static/styx-theme-agency;
+  demoPage = https://divnix.github.io/styx-theme-agency;
+  homepage = https://github.com/divnix/styx-theme-agency;
   screenshot = ./screen.png;
   documentation = lib.readFile ./documentation.adoc;
   description = ''

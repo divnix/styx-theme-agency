@@ -62,7 +62,7 @@ rec {
     in
       (mkBlockSet pages.index.blocks [ "services" "portfolio" "about" "team" "contact" ])
       ++ [
-        { title = "Styx"; url = "https://styx-static.github.io/styx-site/"; }
+        { title = "Styx"; url = "https://divnix.github.io/styx-site/"; }
       ];
 
   } // (lib.loadDir { dir = ./data; inherit env; asAttrs = true; });
